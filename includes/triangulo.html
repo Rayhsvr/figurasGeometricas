@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área Triángulo</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/funciones.js"></script>
+</head>
+<body>
+   <header>
+       <h1>Calcular el Área de un Triángulo</h1>
+   </header>
+   <nav> 
+      <a href="../index.html" id="logo">Inicio</a> 
+   </nav>
+   <section>
+       <!-- <form action="" method="get" name="formArea" id="formArea"> -->
+            <p>Proporcione la base:
+            <input type="number" name="base" id="base" required>
+            &nbsp; Proporcione la altura:
+                <input type="number" name="altura" id="altura" required>
+            </p>
+            <br />
+            <p>El área del triángulo es =
+            <input type="text" name="area" id="area" disabled></p>
+            <p><input type="submit" value="Calcular" onclick="areaTriangulo();">     
+            <input type="button" value="Limpiar" name="limpiar" id="limpiar" onclick="limpiar(4);"></p>
+      <!--  </form> -->
+   </section>
+</body>
+</html>
